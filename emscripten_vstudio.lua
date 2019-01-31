@@ -7,6 +7,8 @@
 	local p = premake
 	local emscripten = p.modules.emscripten
 
+	require "vstudio/vs2010_vcxproj"
+
 	local sln2005 = p.vstudio.sln2005
 	local vc2010 = p.vstudio.vc2010
 	local vstudio = p.vstudio
